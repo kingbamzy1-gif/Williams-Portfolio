@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Bami Dev</a>
+            </div>
+            <div id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Home Section-->
+     <section id="home" class="home">
+        <div class="home-overlay"></div>
+        <div class="home-content">
+            <h1 class="home-title">Hi, I'm <span>Williams Bamaiyi</span></h1>
+            <p class="home-subtitle">Software Developer | Frontend Enthusiast</p>
+            <p class="home-description">This is my personal portfolio. Expolre my project, Skills, and contact info.</p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary">View My Project</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="container">
+        <h2 class="section-title">About</h2>
+         <div class="about-text"> 
+            <div><img class="about-img" src="./Myself.JPG" height="200"></div>
+          <p>I'm a improving frontend developer passionate about building modern, repsonsive website using HTML, CSS, JavaScript, React and Tailwind CSS.<br>
+            With expertise in web development and code debugging. known for problem-solving capabilities and effective team collaboration.
+            Knowledgeable about coding, debugging, and problem-solving. Strong communication and teamwork skills enhance collaboration and project success.
+            Ready to use and develop skills in coding, analytical thinking, and software development.<br> 
+            My goal is to create solutions that are not only functional but also provide excellent user experiences.</p>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Tailwind</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="projects" class="container">
+         <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+       
+        <div class="project-card">
+            <h3 class="card-portfolio">Portfolio Website</h3>
+            <p class="card">A clean, modern portfolio to showcase my skills and work.</p>
+            <p class="card" ><strong>Tech:</strong>HTML, CSS,</p>
+            <a class="card" href="./index.html">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+            <h3 class="card-title">Birthday Invite</h3>
+            <p class="card">A Birthday invite to all my friends and family.</p>
+            <p class="card"><strong>Tech:</strong>HTML, CSS,</p>
+            <a class="card" href="./birthday-invite.html">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+            <h3 class="card-title">Movie Ranking</h3>
+            <p class="card">Me ranking all my best movies.</p>
+            <p class="card"><strong>Tech:</strong>HTML, CSS,</p>
+            <a class="card" href="movie-ranking.html">Live Demo</a>
+        </div>
+        
+        <div class="project-card">
+            <h3 class="card-title">To-Do List App</h3>
+            <p class="card">A productivity app for managing daily tasks.</p>
+            <p class="card"><strong>Tech:</strong> JavaScript</p>
+            <a class="card" href="#">Live Demo</a>
+        </div>
+    </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="container">
+         <h2 class="section-title">Contact Me</h2>
+
+        <p class="info">Email: <strong>williamsbamaiyi30@gmail.com</strong></p>
+        <p class="info">Phone: <strong>+234 815 535 2293</strong></p>
+        <p class="info">Location: <strong>Abuja, Nigeria</strong></p>
+        <p class="info">LinkedIn | GitHub</p>
+
+        <form id="form">
+            <input class="input" type="text" placeholder="Your Name" required /><br><br>
+            <input class="input" type="email" placeholder="Your Email" required /><br><br>
+            <textarea class="input" placeholder="Your Message" required></textarea><br><br>
+            <button class="button" type="submit">Send</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p>© 2025 Williams Bamaiyi — All Rights Reserved</p>
+    </footer>
+</body>
+</html>
