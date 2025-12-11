@@ -327,11 +327,7 @@ body {
         width: 100%;
     }
 
-    .skills-list ul li {
-    margin: 100px
-    
-}
-
+   
    
     .project-grid {
         display: flex;
@@ -352,6 +348,7 @@ body {
         margin-left: 40%;
     }
 }
+
 
 
 
