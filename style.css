@@ -327,11 +327,12 @@ body {
         width: 100%;
     }
 
-    .skills-list {
-        height: 100px;
-        width: 100px;
-    }
+    .skills-list ul li {
+    margin: 100px
+    
+}
 
+   
     .project-grid {
         display: flex;
         flex-direction: column;
@@ -351,6 +352,7 @@ body {
         margin-left: 40%;
     }
 }
+
 
 
 
