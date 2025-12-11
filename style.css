@@ -289,9 +289,9 @@ body {
       color:white; }
 
 
-@media (max-width: 500px) {
+@media (max-width: 780px) {
 
-     .container {
+    .container {
         padding: 0 15px;
     }
 
@@ -299,30 +299,40 @@ body {
     font-size: 1.5rem;
     }
 
+
     #nav-menu {
     display: flex;
     gap: 1rem;
     align-items: center;
-}
+    }
+ 
 
-.home-title {
-    font-size: 3rem;
-}
+    .home-title {
+        font-size: 2.7rem;
+    }
 
+    .home-buttons {
+        flex-direction: column;
+    }
     .about-img {
         float: right;
     }
+    
     .about-text {
         display: inline-block;
     }
-
+    
     .about-text p {
         margin: 0%;
         width: 100%;
     }
+
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+    }
     .card {
-        font-size: 2
-    1rem;
+        font-size: 1rem;
     }
 
     .card-title {
@@ -336,3 +346,4 @@ body {
         margin-left: 40%;
     }
 }
+
