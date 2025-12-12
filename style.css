@@ -305,7 +305,12 @@ body {
     gap: 1rem;
     align-items: center;
     }
- 
+
+    .home {
+        height: 80vh;
+    }
+
+    
 
     .home-title {
         font-size: 2rem;
@@ -353,6 +358,7 @@ body {
         margin-left: 40%;
     }
 }
+
 
 
 
