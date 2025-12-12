@@ -318,7 +318,7 @@ body {
 
     .home-buttons {
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 50px;
     }
     .about-img {
         float: right;
@@ -354,6 +354,7 @@ body {
         margin-left: 40%;
     }
 }
+
 
 
 
